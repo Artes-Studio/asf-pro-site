@@ -56,7 +56,7 @@ window.ASF_DOCS = (() => {
       draft: DRAFT,
       intro: "This policy describes the personal information ASF.Pro uses, why, who receives it and the choices you have.",
       sections: [
-        ["Who is responsible", `<p>The business responsible for your personal information is ${tbd("legal entity and address")}. Privacy questions and rights requests: ${tbd("privacy contact")}.</p>`],
+        ["Who is responsible", `<p>The business responsible for your personal information is ${tbd("legal entity and address")}. Privacy questions and rights requests: <a href="mailto:support@asf.pro">support@asf.pro</a>.</p>`],
         ["Account information", `
           <p>Your user ID, first and last name, email, date of birth, verified phone number, profile updates and account status, plus records of the terms shown to you, the confirmations you gave and your marketing choices.</p>
           <p>With social sign-in, the provider sends us an identifier and the profile details you allow, such as name and email. Apple may give us a private relay address. We never ask for your provider password.</p>
@@ -142,8 +142,8 @@ window.ASF_DOCS = (() => {
       meta: "Reach the ASF.Pro team",
       intro: "For help with your account, start with support in the app; it's the fastest route.",
       sections: [
-        ["Player support", `<p>In the app: Profile › Help.<br>Email: ${tbd("support email")}</p>`],
-        ["Privacy requests", `<p>Access, correction or deletion requests: ${tbd("privacy contact")}</p>`],
+        ["Player support", `<p>In the app: Profile › Help.<br>Email: <a href="mailto:support@asf.pro">support@asf.pro</a></p>`],
+        ["Privacy requests", `<p>Access, correction or deletion requests: <a href="mailto:support@asf.pro">support@asf.pro</a></p>`],
         ["Free entry by mail", `<p>${tbd("postal address for free entry")}</p>`],
         ["Business and press", `<p>${tbd("business email")}</p>`],
         ["Company", `<p>${tbd("operator legal entity")}<br>${tbd("registered address")}</p>`]
