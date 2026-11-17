@@ -351,7 +351,6 @@ window.ASF_DOCS = (() => {
         ["I can't place a mark", `<p>Placing a mark needs a successful location check in the same session. Allow location access, make sure you are in an eligible state, and try again. A VPN or location-spoofing app will cause the check to fail.</p>`],
         ["When are results published?", `<p>After a competition closes, the judges' sealed marks are opened and the results are published. A result under review may take longer. You'll get a notification in the app.</p>`],
         ["I won. What happens next?", `<p>We notify you in the app. Confirm your details and delivery address in the claim form; we may ask for identity or tax information before the prize ships.</p>`],
-        ["How do I enter for free?", `<p>Every competition with a free entry route explains it in its Official Rules. Free entries are judged exactly like paid ones.</p>`],
         ["Closing or deleting my account", `<p>Delete your account in Profile › Account. Any remaining balance or open prize is handled by support; deletion does not settle them automatically.</p>`]
       ]
     },
@@ -363,7 +362,6 @@ window.ASF_DOCS = (() => {
       sections: [
         ["Player support", `<p>In the app: Profile › Help.<br>Email: <a href="mailto:support@asf.pro">support@asf.pro</a></p>`],
         ["Privacy requests", `<p>Access, correction or deletion requests: <a href="mailto:support@asf.pro">support@asf.pro</a></p>`],
-        ["Free entry by mail", `<p>${tbd("postal address for free entry")}</p>`],
         ["Business and press", `<p>${tbd("business email")}</p>`],
         ["Company", `<p>${tbd("operator legal entity")}<br>${tbd("registered address")}</p>`]
       ]
