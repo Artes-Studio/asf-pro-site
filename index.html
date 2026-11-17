@@ -164,6 +164,15 @@ footer { border-top: 1px solid var(--line); padding-block: 36px 44px; color: var
 .doc-sec p, .doc-sec li { color: #C3CAE0; }
 .doc-sec ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
 .doc-sec a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+.doc-sec h3 { margin: 8px 0 0; font: 700 17px/1.3 var(--f-body); color: var(--chalk); }
+.doc-sec strong { color: var(--chalk); font-weight: 600; }
+.callout { padding: 14px 16px; border-radius: 10px; background: rgba(247,183,51,.08); box-shadow: inset 0 0 0 1px rgba(247,183,51,.35); color: #E6EAF5; font-size: 15px; }
+.callout strong { color: var(--gold); }
+.doc-sec .data-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.doc-sec .data-table th { text-align: left; font: 600 12px/1.2 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); }
+.doc-sec .data-table td { vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); color: #C3CAE0; }
+.doc-sec .data-table td:first-child { color: var(--chalk); font-weight: 600; width: 34%; }
+@media (max-width: 560px) { .doc-sec .data-table td:first-child { width: auto; } }
 mark.tbd { background: rgba(247,183,51,.16); color: var(--gold); padding: 1px 6px; border-radius: 5px; font: 600 .85em/1.4 var(--f-mono); }
 
 /* Night sky: a fixed pixel starfield behind everything */
@@ -338,7 +347,8 @@ body { margin: 0; } img { max-width: 100%; } [hidden] { display: none !important
         <span class="doc-meta">${esc(d.meta)}</span>
         <h1>${esc(d.title)}</h1>
         ${d.draft ? `<p class="draft">${esc(d.draft)}</p>` : ""}
-        <p class="doc-intro">${esc(d.intro)}</p>
+        ${d.intro ? `<p class="doc-intro">${esc(d.intro)}</p>` : ""}
+        ${d.notice ? `<div class="callout">${d.notice}</div>` : ""}
       </header>
       ${d.sections.map(([h, html]) => `<section class="doc-sec"><h2>${esc(h)}</h2>${html}</section>`).join("")}`;
     home.hidden = true; doc.hidden = false;
