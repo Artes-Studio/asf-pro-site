@@ -1,0 +1,14 @@
+# asf.pro redirects (Netlify). This file replaces the update-asf-website skill's default,
+# so it carries the skill's /app rule too.
+
+# QR code target: APP_URL in index.html. Point this at the App Store listing
+# (https://apps.apple.com/app/id<ASF id>) once ASF has one.
+/app    /    302
+
+# Footer pages open by #anchor on the one page. ASF emails and the app link to the
+# path form, so send those to the anchor. Netlify matches the trailing-slash form too.
+/terms             /#terms             301
+/privacy           /#privacy           301
+/responsible-play  /#responsible-play  301
+/support           /#support           301
+/contact           /#contact           301
