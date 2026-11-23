@@ -20,7 +20,7 @@ python3 -m http.server 8000
 ## Before going live
 
 - **QR code** points at the placeholder `https://asf.pro/app` (`APP_URL` in `index.html`).
-- **Terms and Privacy are Vantage 21's live pages with the brand changed to ASF** (vantage21.gg/terms and
-  /privacy, taken 2026-11-17). The legal text is otherwise word for word; clauses that may not fit ASF are
-  for Nitsan and counsel to decide before publishing.
+- **Terms and Privacy are counsel's Spot the Ball documents** (Terms of Use and Privacy Policy, November 2026),
+  word for word. Only counsel's blanks are filled (Last modified date, the website asf.pro, links to the other
+  page) and the one either/or line in Privacy §3 is picked. Counsel's open comments are listed in the commit.
 - **Responsible Play** describes spend limits, cool-off and self-exclusion, which are planned (PRD §29), not built.

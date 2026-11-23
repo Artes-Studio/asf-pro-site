@@ -173,6 +173,13 @@ footer { border-top: 1px solid var(--line); padding-block: 36px 44px; color: var
 .doc-sec .data-table td { vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); color: #C3CAE0; }
 .doc-sec .data-table td:first-child { color: var(--chalk); font-weight: 600; width: 34%; }
 @media (max-width: 560px) { .doc-sec .data-table td:first-child { width: auto; } }
+.doc-sec .data-table.wide td:first-child { color: #C3CAE0; font-weight: 400; width: 55%; }
+.doc-sec ol { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 8px; counter-reset: li; }
+.doc-sec ol > li { counter-increment: li; position: relative; padding-left: 40px; }
+.doc-sec ol > li::before { position: absolute; left: 0; color: var(--muted); }
+.doc-sec ol.roman > li::before { content: "(" counter(li, lower-roman) ")"; }
+.doc-sec ol.alpha > li::before { content: "(" counter(li, lower-alpha) ")"; }
+.doc-sec ul.plain { list-style: none; padding-left: 0; gap: 6px; }
 mark.tbd { background: rgba(247,183,51,.16); color: var(--gold); padding: 1px 6px; border-radius: 5px; font: 600 .85em/1.4 var(--f-mono); }
 
 /* Night sky: a fixed pixel starfield behind everything */
