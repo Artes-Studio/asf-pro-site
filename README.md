@@ -22,5 +22,7 @@ python3 -m http.server 8000
 - **QR code** points at the placeholder `https://asf.pro/app` (`APP_URL` in `index.html`).
 - **Terms and Privacy are counsel's Spot the Ball documents** (Terms of Use and Privacy Policy, November 2026),
   word for word. Only counsel's blanks are filled (Last modified date, the website asf.pro, links to the other
-  page) and the one either/or line in Privacy §3 is picked. Counsel's open comments are listed in the commit.
+  page), app name set to ASF (American Sports Fans), SMS clauses dropped, 18 typos fixed.
+  **Privacy §3 first line is AWAITING COUNSEL** (A "We may share, sell or disclose" is shown; B "We do not sell
+  or share" is the alternative). Handoff: stb-plan/legal/asf-terms-privacy-handoff-2026-11.md.
 - **Responsible Play** describes spend limits, cool-off and self-exclusion, which are planned (PRD §29), not built.
