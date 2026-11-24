@@ -1,6 +1,6 @@
 /* Footer pages. Terms and Privacy are counsel's Spot the Ball documents (Terms of Use and Privacy Policy,
-   November 2026), word for word apart from the blanks counsel left to fill. Responsible Play, Support and
-   Contact are drafts: every blank counsel still has to fill is a <mark class="tbd">. */
+   November 2026), word for word apart from the blanks counsel left to fill. Contest Rules is our draft for
+   counsel. Responsible Play, Support and Contact are drafts: every blank counsel still has to fill is a <mark class="tbd">. */
 window.ASF_DOCS = (() => {
   const tbd = (s) => `<mark class="tbd">${s}</mark>`;
 
@@ -15,7 +15,7 @@ window.ASF_DOCS = (() => {
           <p>By registering an account and participating in any contest held in the Services, you affirmatively signify that you have read, understood, and agree to be bound by this Terms, (including the arbitration agreement and class waiver in Section 18) our <a href="#privacy">privacy policy</a> ("<strong>Privacy Policy</strong>") as well as any other policy we may make available, each incorporated herein by reference.</p>`],
         ["2. Use of our Services and license to use them", `
           <p>Artes' Services consists of a skill-based gaming platform through which users may compete in Spot-the-Ball contests for prizes, which may require you to register with Artes and create an account by providing us with certain information about yourself, in accordance with our <a href="#privacy">Privacy Policy</a>.</p>
-          <p>All contests offered on the Services are contests of skill. Winners are determined based on their ability to assess and analyze the photographs associated with each Spot-the-Ball contest provided through our Services, as described in the Spot-the-Ball contest rules available on the Website (the “<strong>Contest Rules</strong>”) and any other applicable documentation associated with the competitions.</p>
+          <p>All contests offered on the Services are contests of skill. Winners are determined based on their ability to assess and analyze the photographs associated with each Spot-the-Ball contest provided through our Services, as described in the <a href="#contest-rules">Spot-the-Ball contest rules</a> available on the Website (the “<strong>Contest Rules</strong>”) and any other applicable documentation associated with the competitions.</p>
           <p>By using Artes's Services, you hereby agree and acknowledge your participation is only for entertainment purposes and not part of your business.</p>
           <p>Subject to these Terms, Artes grants you a personal, non-exclusive, limited, non-transferable, non-assignable, non-sub licensable, limited license to run the Services on a Device (as defined below) owned or controlled by you, solely for the purpose of accessing and using the Services in accordance with these Terms.</p>`],
         ["3. Modification of Terms or Services", `
@@ -232,6 +232,44 @@ window.ASF_DOCS = (() => {
           <p>We reserve the right to change this Policy at any time. The most current version will always be posted on our Services (as reflected in the “Last Modified” heading). You are advised to check for updates regularly. By continuing to access or use our Services after any revisions become effective, you agree to be bound by the updated Policy.</p>`],
         ["12. Contact Us", `
           <p>If you have any further questions, please contact us by email at: <a href="mailto:Support@artestudio.io">Support@artestudio.io</a>.</p>`]
+      ]
+    },
+
+    "contest-rules": {
+      title: "Contest Rules",
+      meta: "Artes US Inc. · Last modified: November 24, 2026",
+      sections: [
+        ["1. About these Rules", `
+          <p>These Contest Rules apply to every Spot-the-Ball contest offered in our skill-based game, ASF (American Sports Fans) ("<strong>App</strong>"), operated by Artes US Inc. ("<strong>Artes</strong>", "<strong>we</strong>" or "<strong>us</strong>"). They are the "Contest Rules" referred to in our <a href="#terms">Terms of Use</a> ("<strong>Terms</strong>") and form part of them. If these Contest Rules and the Terms conflict, the Terms govern. Capitalized words not defined here have the meaning given in the Terms.</p>
+          <p>Every contest is a contest of skill. Whether you win depends only on where you place your mark on the photograph.</p>`],
+        ["2. Eligibility", `
+          <p>To enter a contest you must:</p>
+          <ol class="roman"><li>be eighteen (18) years of age or older, or the legal age of majority where you reside if that is higher;</li><li>be physically located in a jurisdiction where participation in the contest is permitted by law, and not in a Prohibited Jurisdiction;</li><li>not be subject to the Trade Controls described in the Terms;</li><li>hold one account only, registered in your own name with true and accurate information; and</li><li>comply with these Contest Rules and the Terms at all times.</li></ol>
+          <p>We may verify your age, identity and location at any time, and may block entry from any jurisdiction where a contest is not permitted. Contests are void where prohibited or restricted by law.</p>`],
+        ["3. How a contest works", `
+          <p>Each contest is played by one player against one photograph (an "<strong>Attempt</strong>"):</p>
+          <ol class="roman"><li>You choose a sport. At launch the sports are American football, basketball, baseball and soccer. The sports on offer are shown in the App and may change.</li><li>You choose an entry fee from the amounts shown in the App. Entry fees currently range from $0.10 to $1.00 per Attempt. The entry fee is deducted from your account balance when you confirm your entry.</li><li>You are shown a photograph of a real sports moment with the ball removed.</li><li>You place a single mark where you judge the ball to be. You may move your mark until you confirm it or the time limit ends.</li><li>Confirming your mark ends the Attempt, and your result is shown at once.</li></ol>`],
+        ["4. Time limit, pauses and leaving", `
+          <p>Each Attempt has a time limit, shown in the App (currently sixty (60) seconds). When the time limit ends, your last saved mark is submitted automatically. A mark received up to one (1) second after the time limit is accepted. If no mark has been placed, the Attempt is lost.</p>
+          <p>If the App moves to the background, closes or loses its connection during an Attempt, the clock pauses and the photograph is hidden, up to a pause allowance shown in the App (currently twenty (20) seconds per Attempt). Once the allowance is used, the clock runs again until the time limit ends.</p>
+          <p>If you choose to leave an Attempt, your last saved mark is submitted. If no mark has been placed, the Attempt is lost.</p>`],
+        ["5. The target and the winning radius", `
+          <p>The position of the ball in each photograph (the "<strong>Target</strong>") is determined in advance by independent judging of the photograph, as the average of two independent judgments, or by a reviewer's placement where review is needed. The Target is locked before the photograph is made available for play and is never changed during an Attempt.</p>
+          <p>You win if your mark is within the winning radius of the Target. The winning radius is a fixed percentage of the photograph's shorter side (currently three percent (3%)), measured on the full-resolution photograph. The winning radius is the same for every player and every entry fee.</p>`],
+        ["6. Prizes", `
+          <p>A winning Attempt pays a fixed prize of two (2) times the entry fee, which includes the entry fee (for example, a $1.00 entry fee pays $2.00). The prize amount is shown before you enter and is fixed at the time of entry. If your mark is outside the winning radius, the entry fee is retained by Artes.</p>
+          <p>Prizes are credited to your account balance when the result is shown. Where part of an entry fee was paid with bonus funds, that part of the prize is credited as bonus funds. Withdrawals are subject to the Terms.</p>`],
+        ["7. Photograph selection and difficulty", `
+          <p>Every photograph is rated for how hard it is and placed in one of several difficulty bands. Before each Attempt, Artes selects a photograph you have not seen before, from a band matched to your recent results in the App. Your first few photographs are easier. The band and the photograph are selected before you enter and never change during an Attempt.</p>
+          <p>The winning radius, the prize multiple and the time limit are the same for every player. The same mark on the same photograph always produces the same result, whoever places it. You will not be shown the same photograph twice.</p>`],
+        ["8. Void Attempts", `
+          <p>If an Attempt cannot fairly be played, for example because the photograph never loads, or it is never shown and no mark is placed, the Attempt is void and the entry fee is returned to the balance it was taken from. A void Attempt does not count as a played contest. A player may have up to three (3) void Attempts in any twenty-four (24) hour period; after that, a further such Attempt is resolved as a loss.</p>`],
+        ["9. Results", `
+          <p>Your result shows whether you won, the Target, and the distance between your mark and the Target. Results are final, except that Artes may review, correct or void any Attempt affected by a technical error, a prize received in error, or Abuse, as set out in the Terms.</p>`],
+        ["10. Changes to these Rules", `
+          <p>Artes may change these Contest Rules at any time, including the sports, entry fees, time limit, pause allowance and winning radius, as provided in the Terms. The terms of each Attempt are fixed when you enter it, and a change never applies to an Attempt already entered.</p>`],
+        ["11. Contact us", `
+          <p>If you have any questions about these Contest Rules, please contact us at <a href="mailto:support@artestudio.io">support@artestudio.io</a>.</p>`]
       ]
     },
 

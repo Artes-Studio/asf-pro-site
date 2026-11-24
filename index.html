@@ -146,6 +146,9 @@ footer { border-top: 1px solid var(--line); padding-block: 36px 44px; color: var
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px 32px; }
 .foot img { width: 120px; height: auto; display: block; }
 .legal { max-width: 70ch; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.foot-links a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.foot-links a:hover { color: var(--chalk); }
 .legal strong { color: var(--chalk); font-weight: 600; }
 
 /* Footer pages */
@@ -198,6 +201,7 @@ body { margin: 0; } img { max-width: 100%; } [hidden] { display: none !important
     <nav class="site-nav" id="siteNav" aria-label="Main">
       <a href="#terms">Terms</a>
       <a href="#privacy">Privacy</a>
+      <a href="#contest-rules">Contest Rules</a>
       <a href="#responsible-play">Responsible Play</a>
       <a href="#support">Support</a>
       <a href="#contact">Contact</a>
@@ -256,6 +260,7 @@ body { margin: 0; } img { max-width: 100%; } [hidden] { display: none !important
   <div class="wrap">
     <div class="foot">
       <img src="asf-logo.webp" alt="ASF.Pro">
+      <nav class="foot-links" aria-label="Legal"><a href="#terms">Terms</a><a href="#privacy">Privacy</a><a href="#contest-rules">Contest Rules</a><a href="#responsible-play">Responsible Play</a></nav>
       <p class="legal"><strong>18+.</strong> Skill-based contests for real money where permitted by law. Void where prohibited. © 2026 ASF.Pro. All rights reserved.</p>
     </div>
   </div>

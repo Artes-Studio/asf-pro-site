@@ -9,6 +9,7 @@
 # path form, so send those to the anchor. Netlify matches the trailing-slash form too.
 /terms             /#terms             301
 /privacy           /#privacy           301
+/contest-rules     /#contest-rules     301
 /responsible-play  /#responsible-play  301
 /support           /#support           301
 /contact           /#contact           301
